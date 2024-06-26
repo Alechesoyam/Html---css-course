@@ -1,0 +1,134 @@
+.Subscribe-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding :20px ;
+    cursor: pointer;
+    transition: opacity 0.15s;
+   }
+   .Subscribe-button:hover {
+     opacity: 0.8;
+   }
+   .join-button:active{
+     opacity: 0.7;
+   }
+ 
+ 
+   .join-button {
+     background-color: rgb(255, 216, 20);
+     color: black;
+     border: none;
+     height: 36px;
+     width: 160;
+     border-radius: 17px;
+     cursor: pointer;
+     margin-right: 8px;
+     transition: background-color 1s, 
+       color 1s;
+     
+   }
+ 
+   .join-button:hover {
+     
+     background-color: rgb(224, 183, 3);
+     color: white;
+   }
+   
+   .join-button:active{
+     opacity: 0.7;
+   }
+ 
+ 
+ 
+   .tweet-button {
+     background-color: rgb(46, 164,79);
+     color: white;
+     font-weight: bold;
+     font-size: 15px;
+     border: none;
+     border-width: 1px;
+     height: 36px;
+     width: 80px;
+     border-radius: 6px;
+     cursor: pointer;
+     margin-right: 8px;
+      
+   }
+   .tweet-button:hover {
+     box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.15);
+     border-width: 2px;
+   }
+ 
+   
+   .boot {
+     background-color: rgb(121, 82, 179);
+     color: white;
+     font-weight: bold;
+     border: none;
+     height: 40px;
+     width: 110px;
+     border-radius: 4px;
+     cursor: pointer;
+     margin-right: 6px;
+     transition: background-color 1s, opacity .15s;
+   }
+ 
+   .boot:hover {
+     background-color:   rgb(97, 66, 144);
+   }
+ 
+   .strap {
+     background-color: white;
+     color: rgb(108, 117, 125);
+     font-weight: solid;
+     border-color: rgb(108, 117, 125);
+     border-style: solid;
+     border-width: 1px;
+     height: 40px;
+     width: 100px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-right: 4px;
+     font-weight: bold;
+     transition: background-color 1s,
+     color 1s, opacity .15s;
+   }
+   .strap:hover {
+     background-color: gray;
+     color: white;
+ 
+   }
+ 
+   .apply {
+     background-color: rgb(10, 102, 194);
+     color: white;
+     border: none;
+     font-weight: Bold;
+     height: 35px;
+     width: 240px;
+     border-radius: 25px;
+     font-size: 16px;
+     margin-right: 6px;
+     font-size: 13px;
+     transition: background-color 0.15s;
+   }
+   .apply:hover {
+     background-color: rgb(8, 87, 165);
+   }
+ 
+   .save {
+     background-color:  white;
+     color: rgb(10, 102, 194);
+     border-width: 1px;
+     border-color:rgb(10, 102, 194); 
+     border-radius: 20px;
+     height: 40px;
+     width: 100px;
+     font-weight: bold;
+     transition: background-color 0.15s,
+       border-width 0.15s;
+   }
+   .save:hover {
+     border-width: 1.5px;
+     background-color:rgba(10, 102, 194, .09) ;
+   }
